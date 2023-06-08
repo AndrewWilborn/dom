@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>DOM</title>
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    
+    <body>
+        <div id="root">
+            <h1 id="display">DOM</h1>
+            <h2 id="display2"></h2>
+            <h3 id="display3"></h3>
+        </div>
+        <script src="./scripts/dom-basic.js"></script>
+        <script src="./scripts/event-handler.js"></script>
+        <div>
+            <button onclick="changeText('display', 'getFullYear')">h1</button>
+            <button onclick="changeText('display2', 'getSeconds')">h2</button>
+            <button onclick="changeText('display3', 'getMilliseconds')">h3</button>
+        </div>
+
+    </body>
+
+</html>
